@@ -3,6 +3,9 @@
 A Streamlit-based web application that extracts and understands information from invoice images (JPG, JPEG, PNG, PDF) using Google Gemini (Generative AI).
 The app supports multilingual invoices and allows users to ask custom questions about the uploaded invoice.
 
+👀 PREVIEW: 
+
+    https://upgraded-space-acorn-jjjr5xj4xw7rf5vpr-8501.app.github.dev/
 🚀 Features
 
     📷 Upload invoice images (JPG / JPEG / PNG / PDF)
