@@ -3,6 +3,13 @@
 A Streamlit-based web application that extracts and understands information from invoice images (JPG, JPEG, PNG, PDF) using Google Gemini (Generative AI).
 The app supports multilingual invoices and allows users to ask custom questions about the uploaded invoice.
 
+⚠️ NOTE: 
+         
+         1.run the app.py in backend.
+         2.Make sure not to commit .env to GitHub.
+         
+➡️THEN-
+
 👀 PREVIEW: 
 
     https://upgraded-space-acorn-jjjr5xj4xw7rf5vpr-8501.app.github.dev/
@@ -68,8 +75,6 @@ mimetypes
     Create a .env file in the root directory:
     
     GOGGLE_API_KEY=your_google_gemini_api_key
-
-⚠️ NOTE: Make sure not to commit .env to GitHub.
 
 ▶️ Run the Application: streamlit run app.py
 
