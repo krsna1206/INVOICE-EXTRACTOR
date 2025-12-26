@@ -38,7 +38,7 @@ def input_image_setup(uploaded_file):
 
 #initializing our streamlit app
 
-st.set_page_config(page_title="MULTTILINGUAL INVOICE EXTRACTOR")
+st.set_page_config(page_title="MULTTILINGUAL INVOICE-EXTRACTOR")
 st.header("MULTILANGUAGE INVOICE EXTRACTOR")
 
 input = st.text_input("INPUT PROMPT: ",key="input")
