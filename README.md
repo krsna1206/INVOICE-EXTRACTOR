@@ -12,7 +12,7 @@ The app supports multilingual invoices and allows users to ask custom questions 
 
 👀 PREVIEW: 
 
-    https://upgraded-space-acorn-jjjr5xj4xw7rf5vpr-8501.app.github.dev/
+    https://invoice-extractor-pr7jybpzldwmcqmkspp3cq.streamlit.app/
 🚀 Features
 
     📷 Upload invoice images (JPG / JPEG / PNG / PDF)
