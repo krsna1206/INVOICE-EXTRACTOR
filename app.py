@@ -5,18 +5,21 @@ load_dotenv()
 import streamlit as st
 import os
 from PIL import Image
-import google.generativeai as genai
+from google import genai
 import mimetypes
 
 #setting up geimini model
-genai.configure(api_key=os.getenv("GOGGLE_API_KEY"))
-
-model = genai.GenerativeModel("gemini-1.5-flash")
+client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
+MODEL_ID = "gemini-2.5-flash" 
 
 #defing gemini response
-def get_gemini_response(input,image_data,prompt):
-    response= model.generate_content([input,image_data,prompt])
+def get_gemini_response(user_input, image_data, prompt):
+    response = client.models.generate_content(
+        model=MODEL_ID,
+        contents=[user_input, image_data, prompt],
+    )
     return response.text
+
 
 #setting up image as input to pdf,jpg ,jpeg format
 def input_image_setup(uploaded_file):
