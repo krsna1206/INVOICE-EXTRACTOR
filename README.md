@@ -5,14 +5,8 @@ The app supports multilingual invoices and allows users to ask custom questions 
 
 ⚠️ NOTE: 
          
-         1.run the app.py in backend.
-         2.Make sure not to commit .env to GitHub.
+         Make sure not to commit .env to GitHub.
          
-➡️THEN-
-
-👀 PREVIEW: 
-
-    https://invoice-extractor-pr7jybpzldwmcqmkspp3cq.streamlit.app/
 🚀 Features
 
     📷 Upload invoice images (JPG / JPEG / PNG / PDF)
